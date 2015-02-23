@@ -1,0 +1,426 @@
+// Media Queries 
+
+
+/* Portrait tablet and small desktops */
+@media (max-width: 987px) {
+	.nav ul li{
+		margin:15px 5px;
+	}
+	.innerWrapper {
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+	.sectionTitle {
+		padding:0;
+	}
+	.puzzleInfo{ 
+		width:100%;
+		padding:0;
+	}
+	.puzzle{
+		width:100%;
+		padding-top: 0;
+		.skillsButtons {
+			width:auto;
+		}
+	}
+	.contactBox{
+		padding:0 30px;
+	}
+	.actions.newsButton {
+		width:auto;
+	}
+	.subscribe{
+		width:50%;
+	}
+	.newsletter{
+		padding:20px 0;
+	}
+	.actions.newsButton{
+			width:40%;
+			margin: 10px 0;
+			margin-left:5%;
+		}
+	.newsWrapper{
+		padding:0 10px;
+	}
+	.footerText{
+		text-align: center;
+		display: inline-block;
+		padding:0;
+	}
+	.portfolio .blogTop{
+		margin-left:0;
+	}
+  }
+@media (max-width: 908px){
+	.footer .social{
+		width:60%;
+	}
+	.socialBox{
+		text-align: left;
+	}
+	.footerText{
+		width:30%;
+	}
+	.nav .navButton{
+		padding:5px;
+		font-size: 11px;
+	}
+
+}
+/* Landscape phone to portrait tablet */
+@media (max-width: 819px) {
+	.nav ul li{
+		margin:10px 0;
+	}
+	.header .tagline{
+		font-size: 35px;
+	}
+	input.submitButton{
+		width:80%;
+	}
+}
+@media (max-width: 767px){
+	.nav {
+		width:100%;
+		float:left;
+		ul{
+			margin:5px;
+			padding:0;
+			li {
+				width: 16.6666667%;
+			}
+		}
+	}
+	.box{
+		width:48%;
+	}
+	.block{
+		width:100%;
+	    img{
+	     	width:auto;
+	    }
+	}
+	.square{
+		width:48%;
+	}
+	input[type="submit"]{
+		width:100%;
+	}
+	blockquote{
+		margin:0;
+	}
+	.newsText{
+		margin:0;
+	}
+	.blogBox{
+		width:100%;
+	}
+	.blogTopBox{
+		float:none;
+		clear:both;
+		width:100%;
+		margin:0 auto;
+		display: block;
+	}
+	.header .tagline{
+		font-size: 30px;
+	}
+	.header .smallTagline{
+		font-size: 15px;
+	}
+	.twitterBar{
+		padding:20px 0;
+	}
+	.contactBox{
+		padding:0 10px;
+	}
+	input.submitButton{
+		width: 90%;
+	}
+	.actions.blogButton{
+		max-width: 80%;
+		margin:15px auto;
+		display: block;
+	}
+	.sectionTitle, .sectionInfo{
+		width: 100%;
+	}
+	.sectionTitle{
+		padding-top: 15px;
+	}
+	.sectionTitle{
+		text-align: center;
+		margin:0;
+	}
+	.blogInfo{
+		margin-bottom: 20px;
+	}
+	.blogTop{
+		display: block;
+	}
+	.sectionTitle.contactTitle{
+		padding-top: 0;
+	}
+	.sectionTitle.blogTitle{
+		margin-bottom: 10px;
+	}
+	.actions.blogTop{
+		color:black;
+		border:1px solid black;
+		margin:10px;
+	}
+	.sectionTitle.contactTitle{
+		font-size: 25px;
+		margin:0;
+		padding:0;
+	}
+	.sectionInfo.contactSubtitle{
+		font-size: 16px;
+		margin-top:5px;
+	}
+	.skillsButtons{
+		p{
+			font-size: 14px;
+		}
+	}
+	.blogBox{
+		float:none;
+	}
+	.portfolio .blogTop{
+		width:auto;
+	}
+}
+@media (max-width: 731px){
+	.nav ul li a{
+		display:inline-block;
+		width:20%;
+	}
+}
+
+/* Landscape phones and down */
+@media (max-width: 717px) {
+
+	.box{
+		width:100%;
+	}
+	.subcribe{
+		width:100%;
+	}
+	.newsWrapper{
+		padding:0;
+	}
+	.box{
+		width:100%;
+	}
+	.contactBox{
+		width:100%;
+	}
+	.form{
+		float:none;
+        input, textarea{
+        	margin-right: 0;
+        	margin-left: 0;
+        }
+        label{
+        	margin:0;
+        }
+	}
+	.map{
+		width:100%;
+		margin-top: 10px;
+		text-align: center;
+	}
+	.header .tagline{
+		padding:0;
+		font-size: 20px;
+	}
+	.header .smallTagline{
+		padding: 0;
+	}
+	.logoWrap{
+			width:100%;
+		}
+	.logoInfo{
+		padding-bottom: 10px;
+	}
+	.contact{
+		padding:0;
+	}
+	input.submitButton{
+		float:none;
+		width:100%;
+	}
+	.nav{
+		position:fixed;
+		height:100%;
+		background: black;
+		left:0;
+		top:50px;
+		width:100%;
+		transform:translateX(-100%);
+		transition:all 0.5s;
+	}
+	.nav ul{
+		width:100%;
+		margin:0;
+		padding:0;
+	}
+	.nav ul li{
+		display: block;
+		width:100%;
+		margin: 0;
+		padding: 0;
+	}
+	.nav ul li a{
+		width:100%;
+		border-bottom:2px solid black;
+		display: block;
+		padding: 20px;
+		font-size: 30px;
+		text-transform: uppercase;
+	}
+	.nav .navButton{
+		background:none;
+		border-radius:0;
+		background: rgba(26,181,148,0.9);
+		width:100%;
+		font-size: 30px;
+		padding:20px;
+	}
+	input#toggle{
+		display: none;
+	}
+	input#toggle:checked + nav.nav{
+		transform:translateX(0);
+	}
+
+	label.ham{
+		display: block;
+	}
+	.header{
+		position: relative;
+		transition: left 0.5s;
+		left:0;
+	}
+	.newsletterTitle{
+		font-size: 20px;
+		text-align: center;
+	}
+}
+@media (max-width:645px){
+	.footer .social{
+		width:100%;
+	}
+	.footerText{
+		width:100%;
+	}
+}
+@media (max-width: 590px) {
+	.square{
+		width: 100%;
+	}
+	.square img{
+		width:100%;
+	}
+	
+	.footerText{
+		width:100%;
+		padding-left: 40px;
+	}
+	.footer .social{
+		width:100%;
+		padding:0;
+		padding-left: 40px;
+	}
+	.contactBox{
+		padding:0;
+	}
+	.twitterBar{
+		padding:20px 0;
+	}
+	.newsText{
+		width:100%;
+	}	
+}
+@media (max-width: 519px){
+	.newsletter{
+		padding:20px 0;
+	}
+	.nav{
+		width:100%;
+		font-size: 40px;
+	}
+}
+@media (max-width: 492px){
+	.newsText{
+		width:100%;
+	}
+	.footer{
+		padding:0;
+		margin:0;
+	}
+	.contact{
+		padding:20px 0;
+	}
+}
+@media (max-width: 430px){
+	.extraSocialText{
+		display: none;
+	}
+	.socialBox{
+		float:none;
+		margin:0;
+	}
+	.actions.headerButton{
+		padding:10px;
+	}
+}
+@media (max-width: 406px){
+	.contact{
+		padding:20px 0;
+	}
+	h2.newsletterTitle{
+		text-align: center;
+		margin-bottom:20px;
+		font-size: 20px;
+	}
+	.subscribe{
+		width:100%;
+	}
+	.actions.newsButton{
+		width:100%;
+		margin: 10px 0;
+	}
+	.divider h2{
+		font-size: 25px;
+	}
+	.divider p{
+		font-size: 16px;
+	}
+	.sectionTitle {
+		font-size: 20px;
+	}
+	.sectionInfo{
+		font-size: 15px;
+	}
+	.header .smallTagline{
+		font-size: 15px;
+	}
+	.sectionTitle.blogTitle{
+		margin-bottom: 4px;
+	}
+	.header{
+		padding-top:100px;
+	}
+}
+@media (max-width: 325px){
+	.innerWrapper{
+		padding:0;
+	}
+	label.ham{
+		left:50%;
+	}
+}
+
